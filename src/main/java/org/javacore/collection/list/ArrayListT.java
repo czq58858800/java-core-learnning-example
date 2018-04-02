@@ -27,7 +27,11 @@ public class ArrayListT {
     }
 
     public static void listMethods() {
+        // 无参构造函数：
+        // 创建一个 空的 ArrayList，此时其内数组缓冲区 elementData = {}, 长度为 0
         List a1 = new ArrayList<String>();
+
+//       当元素第一次被加入时，扩容至默认容量 10
         a1.add("List01");
         a1.add("List03");
         a1.add("List04");
